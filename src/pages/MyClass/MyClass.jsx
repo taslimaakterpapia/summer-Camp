@@ -30,10 +30,9 @@ const MyClass = () => {
                             <p>
                                 <div className="badge badge-primary">{data.status}</div>
                             </p>
-
                             <label htmlFor="my_modal_7" className="btn">Your Feedback</label>
 
-                            
+            
                             <input type="checkbox" id="my_modal_7" className="modal-toggle" />
                             <div className="modal">
                                 <div className="modal-box">
