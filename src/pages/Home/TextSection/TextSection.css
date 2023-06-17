@@ -1,0 +1,17 @@
+  
+ .image {
+    width: 1000px; 
+    height: 200px;
+    animation: zoomInOut 3s infinite alternate;
+  }
+    @keyframes zoomInOut {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2); 
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
