@@ -33,7 +33,7 @@ const MyClass = () => {
 
                             <label htmlFor="my_modal_7" className="btn">Your Feedback</label>
 
-                            {/* Put this part before </body> tag */}
+                            
                             <input type="checkbox" id="my_modal_7" className="modal-toggle" />
                             <div className="modal">
                                 <div className="modal-box">
