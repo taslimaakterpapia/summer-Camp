@@ -38,7 +38,6 @@ const MyClass = () => {
                                     <h3 className="text-lg font-bold">Feedback</h3>
                                     <p className="py-4">{data?.feedback?.feedback || "Feedback not found"}</p>
                                 </div>
-
                                 <label className="modal-backdrop" htmlFor="my_modal_7">Close</label>
                             </div>
                             <Link to={`/dashboard/updateclass/${data._id}`}>
