@@ -36,9 +36,6 @@ const DashBoard = () => {
                     <li><Link to="/dashboard/myclass" className=" text-lg">My Classes</Link></li>
                    </>}
                     
-                    {/* <li><Link to='/dashboard/class' className="hover:text-yellow-300 text-lg">Add Class</Link></li>
-                    
-                    */}
 
                     {isAdmin && <>
                         <li><Link to="/dashboard/allclass" className=" text-lg">Manage Classes</Link></li>
