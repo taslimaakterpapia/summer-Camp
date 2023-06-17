@@ -35,17 +35,7 @@ const AuthProvider = ({children}) => {
             displayName: name, photoURL: photo
         });
     }
-    // useEffect(()=>{
-    //     const unsubscribe=onAuthStateChanged(auth,loggedUser=>{
-    //         console.log("Logged in user inside auth state observer",loggedUser);
-    //         setUser(loggedUser)
-    //         //saveUser(loggedUser);
-    //         setLoading(false);
-    //     })
-    //     return ()=>{
-    //         unsubscribe();
-    //     }
-    // },[])
+    
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
