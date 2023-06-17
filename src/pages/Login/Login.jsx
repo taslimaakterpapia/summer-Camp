@@ -7,7 +7,6 @@ import {  FaGoogle } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { saveUser } from '../../api/AuthApi';
 import Swal from 'sweetalert2';
-// import { toast } from 'react-hot-toast';
 import { app } from '../../firebase/firebase.config';
 
 
