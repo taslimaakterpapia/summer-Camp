@@ -6,9 +6,7 @@ import { useLoaderData, useParams } from 'react-router-dom';
 const UpdateMyClass = () => {
     const {id}=useParams();
     const [initialData,setInitialData]=useState({});
-    // const {id}=useLoaderData();
-    // console.log(id);
-    useEffect(()=>{
+        useEffect(()=>{
         fetch(` http://localhost:5000/singleclass/${id}`)
         .then(res=>res.json())
         .then(data=>{

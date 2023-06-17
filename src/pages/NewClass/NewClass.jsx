@@ -7,8 +7,7 @@ const NewClass = () => {
     const {user}=useContext(AuthContext);
     const onSubmit = data => {
         console.log(data)
-        // Parse numeric fields as numbers
-        data.availableSeat = Number(data.availableSeat);
+       data.availableSeat = Number(data.availableSeat);
 
         const newClassData = {
           ...data,
