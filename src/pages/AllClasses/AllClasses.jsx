@@ -16,7 +16,7 @@ const AllClasses = () => {
             return res.data;
         }
     );
-    //console.log(allClassData)
+    
 
     const approveHandler = (id) => {
         console.log(id)
