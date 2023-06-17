@@ -10,7 +10,7 @@ const Course = ({course}) => {
                 <div className="card-body">
                   <h2 className="card-title">name</h2>
                    <div className="card-actions justify-end">
-                    {/* <button className="btn btn-primary">Read More</button> */}
+                    
                     <Link to={`singleclass/${_id}`}>
                         <button className="btn btn-neutral">View Details</button>
                     </Link>
