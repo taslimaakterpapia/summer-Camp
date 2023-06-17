@@ -59,7 +59,7 @@ const AllClasses = () => {
             })
     }
     const onChangeHandler=()=>{
-        //console.log(textAreaValue);
+       
         const info={feedback:textAreaValue}
         fetch(` http://localhost:5000/feedback/${feedback}`,{
             method: 'PUT',
