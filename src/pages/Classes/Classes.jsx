@@ -26,7 +26,6 @@ const Classes = () => {
       className: cl.name,
       price: cl.price,
       status: cl.status,
-      //id: cl._id,
       enrolledStudent: cl._enrolledStudent,
       studentClassAdds: user?.email,
       payment: "Pending",
