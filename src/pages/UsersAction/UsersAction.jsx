@@ -8,7 +8,7 @@ const UsersAction = () => {
     const { data: userData = [], refetch } = useQuery(
         ["users"],
         async () => {
-            const res = await axios.get(" http://localhost:5000/users");
+            const res = await axios.get(" https://summer-camp-server-5khiucgdl-taslimaakterpapia.vercel.app/users");
             return res.data;
         }
     );
@@ -16,7 +16,7 @@ const UsersAction = () => {
     const instructorHandler = (id) => {
         const ready = confirm("Are you sure you want to change roles?");
         if (ready) {
-            fetch(` http://localhost:5000/users/instructor/${id}`, {
+            fetch(` https://summer-camp-server-5khiucgdl-taslimaakterpapia.vercel.app/users/instructor/${id}`, {
                 method: "PATCH"
             })
                 .then(res => res.json())
@@ -29,7 +29,7 @@ const UsersAction = () => {
     const adminHandler=(id) => {
         const ready = confirm("Are you sure you want to change roles?");
         if (ready) {
-            fetch(` http://localhost:5000/users/admin/${id}`, {
+            fetch(` https://summer-camp-server-5khiucgdl-taslimaakterpapia.vercel.app/users/admin/${id}`, {
                 method: "PATCH"
             })
                 .then(res => res.json())

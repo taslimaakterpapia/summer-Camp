@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const SelectItem = () => {
     const [selectClass, setSelectClass] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/addtocart')
+        fetch('https://summer-camp-server-5khiucgdl-taslimaakterpapia.vercel.app/addtocart')
 
             .then(res => res.json())
             .then(data => {

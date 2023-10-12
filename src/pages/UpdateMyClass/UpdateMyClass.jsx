@@ -7,7 +7,7 @@ const UpdateMyClass = () => {
     const {id}=useParams();
     const [initialData,setInitialData]=useState({});
         useEffect(()=>{
-        fetch(` http://localhost:5000/singleclass/${id}`)
+        fetch(` https://summer-camp-server-5khiucgdl-taslimaakterpapia.vercel.app/singleclass/${id}`)
         .then(res=>res.json())
         .then(data=>{
             console.log(data)
@@ -20,7 +20,7 @@ const UpdateMyClass = () => {
     const onSubmit = data => {
         
         //console.log(data)
-        fetch(` http://localhost:5000/classes/${id}`,{
+        fetch(` https://summer-camp-server-5khiucgdl-taslimaakterpapia.vercel.app/classes/${id}`,{
             method: 'PUT',
             headers:{
                 'content-type':'application/json'

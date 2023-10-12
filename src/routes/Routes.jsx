@@ -47,7 +47,7 @@ import Error from "../pages/Error/Error";
         {
           path: 'singleclass/:id',
           element: <SingleClass></SingleClass>,
-          loader: ({params})=>fetch(` http://localhost:5000/classes/${params.id}`)
+          loader: ({params})=>fetch(` https://summer-camp-server-5khiucgdl-taslimaakterpapia.vercel.app/classes/${params.id}`)
         },
         
       ]
@@ -88,7 +88,7 @@ import Error from "../pages/Error/Error";
         {
           path: "/dashboard/payment/:id",
           element: <Payment></Payment>,
-          loader: ({params})=>fetch(` http://localhost:5000/addtoclass/${params.id}`)
+          loader: ({params})=>fetch(` https://summer-camp-server-5khiucgdl-taslimaakterpapia.vercel.app/addtoclass/${params.id}`)
         }
 
       ]

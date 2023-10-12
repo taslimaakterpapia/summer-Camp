@@ -67,9 +67,7 @@ const Login = () => {
     
     return (
         <div className="hero min-h-screen bg-gray-400 flex">
-            <div>
-                <img src="https://media.istockphoto.com/id/1426988809/photo/security-password-login-online-concept-hands-typing-and-entering-username-and-password-of.webp?b=1&s=170667a&w=0&k=20&c=AJD5Wv30lmyILccJyMpQGhkmh0VhZ5WNDtk53MO1OVM=" alt="" />
-            </div>
+            
             <div className="hero-content flex-col lg:flex-row-reverse">
                 
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-white">

@@ -54,7 +54,7 @@ const NavBar = () => {
       </>
     </div>
   return (
-    <div className="navbar h-16 mb-4 fixed z-10 bg-opacity-50 max-w-screen-xl bg-blue-700 text-white text-2xl font-bold">
+    <div className="navbar h-16 mb-4 fixed z-10 bg-opacity-50 max-w-screen bg-blue-700 text-white text-2xl font-bold">
       <div>
         <label className="swap swap-rotate mb-4">
 
@@ -87,7 +87,7 @@ const NavBar = () => {
       </div>
       <div className="navbar-end me-5" style={{ marginRight: "80px" }}>
         
-        {navItems}
+        
 
 
       </div>

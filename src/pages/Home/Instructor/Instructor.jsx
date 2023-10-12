@@ -6,7 +6,7 @@ const Instructor = () => {
     const onSubmit = data => {
         
         console.log(data)
-        fetch('http://localhost:5000/instructor',{
+        fetch('https://summer-camp-server-5khiucgdl-taslimaakterpapia.vercel.app/instructor',{
             method: 'POST',
             headers:{
                 'content-type':'application/json'

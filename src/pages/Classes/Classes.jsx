@@ -8,7 +8,7 @@ const Classes = () => {
   const { user } = useContext(AuthContext);
 
   useEffect(() => {
-    fetch(` http://localhost:5000/approvedClasses?status=${"approved"}`)
+    fetch(` https://summer-camp-server-5khiucgdl-taslimaakterpapia.vercel.app/approvedClasses?status=${"approved"}`)
       .then((res) => res.json())
       .then((data) => {
 
@@ -30,7 +30,7 @@ const Classes = () => {
       studentClassAdds: user?.email,
       payment: "Pending",
     }
-    fetch('http://localhost:5000/addtocart', {
+    fetch('https://summer-camp-server-5khiucgdl-taslimaakterpapia.vercel.app/addtocart', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'

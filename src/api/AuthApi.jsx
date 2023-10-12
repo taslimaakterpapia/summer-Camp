@@ -5,7 +5,7 @@ export const saveUser=(user)=>{
         name:user.displayName,
         //img:user?.photoURL
     }
-    fetch(` http://localhost:5000/users/${user.email}`,{
+    fetch(` https://summer-camp-server-5khiucgdl-taslimaakterpapia.vercel.app/users/${user.email}`,{
         method:'PUT',
         headers:{
             'content-type':'application/json'

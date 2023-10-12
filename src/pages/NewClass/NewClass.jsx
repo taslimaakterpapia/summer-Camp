@@ -13,7 +13,7 @@ const NewClass = () => {
           ...data,
           enrolledStudent: 0,
         };
-        fetch('http://localhost:5000/classes',{
+        fetch('https://summer-camp-server-5khiucgdl-taslimaakterpapia.vercel.app/classes',{
             method: 'POST',
             headers:{
                 'content-type':'application/json'
